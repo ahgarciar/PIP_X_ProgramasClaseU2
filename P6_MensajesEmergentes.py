@@ -30,7 +30,8 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         msgBox = QtWidgets.QMessageBox()
         msgBox.setText("Hola Mundo")
         resp = msgBox.exec_()
-        print(f"Respuesta: {resp}")
+        print("Respuesta: ", resp)
+        #print(f"Respuesta: {resp}")
 
     def op_defecto(self):
         msgBox = QtWidgets.QMessageBox()
